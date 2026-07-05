@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio Flutter Developer">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader" class="loader">
+  <div class="loader-track"><div class="loader-bar" id="loaderBar"></div></div>
+  <p class="loader-txt">Loading…</p>
+</div>
+
+<!-- CURSOR -->
+<div id="cur" class="cur"></div>
+<div id="curRing" class="cur-ring"></div>
+
+<!-- ══════════════════════════
+     NAVBAR
+══════════════════════════ -->
+<header id="navbar" class="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="brand">
+      <span class="brand-dot"></span>
+      <span id="navName" class="brand-name">Dev</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about"      class="nl" data-s="about">About</a>
+      <a href="#skills"     class="nl" data-s="skills">Skills</a>
+      <a href="#projects"   class="nl" data-s="projects">Projects</a>
+      <a href="#experience" class="nl" data-s="experience">Journey</a>
+      <a href="#contact"    class="nl" data-s="contact">Contact</a>
+    </nav>
+
+    <div class="nav-end">
+      <div class="avail-pill" id="availPill">
+        <span class="avail-dot"></span>
+        <span id="availText">Open to work</span>
+      </div>
+      <button id="burger" class="burger"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- MOBILE NAV -->
+<div id="mobileNav" class="mobile-nav">
+  <a href="#about"      class="mn-link">About</a>
+  <a href="#skills"     class="mn-link">Skills</a>
+  <a href="#projects"   class="mn-link">Projects</a>
+  <a href="#experience" class="mn-link">Journey</a>
+  <a href="#contact"    class="mn-link">Contact</a>
+</div>
+
+<!-- ══════════════════════════
+     HERO
+══════════════════════════ -->
+<section id="hero" class="hero">
+  <div class="hero-bg">
+    <div class="hb hb1"></div>
+    <div class="hb hb2"></div>
+    <div class="hb hb3"></div>
+  </div>
+
+  <div class="hero-wrap container">
+    <!-- LEFT -->
+    <div class="hero-content">
+      <span class="chip sa" id="heroChip"><span class="chip-dot"></span><span id="chipTxt">Open to work</span></span>
+      <h1 class="hero-h1 sa sd1">Hi, I'm <span class="grad" id="heroName">Faishol</span></h1>
+      <p class="hero-sub sa sd2">
+        <span class="sub-dim">I build </span>
+        <span id="typed" class="sub-typed"></span><span class="caret">|</span>
+      </p>
+      <p class="hero-bio sa sd3" id="heroBio">…</p>
+      <div class="hero-actions sa sd4">
+        <a href="#projects" class="btn btn-p"><i data-lucide="layers"></i> View Projects</a>
+        <a href="#contact"  class="btn btn-o"><i data-lucide="mail"></i> Contact Me</a>
+      </div>
+      <div class="hero-socials sa sd5" id="heroSocials"></div>
+    </div>
+
+    <!-- RIGHT — visual -->
+    <div class="hero-visual sa sd2">
+      <div class="vis-orbit">
+        <div class="vis-center">
+          <div class="vis-icon">💙</div>
+          <div class="vis-label">Flutter Dev</div>
+        </div>
+        <!-- tech pills orbit -->
+        <div class="orbit-ring r1"></div>
+        <div class="orbit-ring r2"></div>
+        <div class="tech-pills" id="techPills"></div>
+      </div>
+      <!-- stat chips -->
+      <div class="vis-stats" id="visStats"></div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <div class="sh-mouse"><div class="sh-dot"></div></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ══════════════════════════
+     ABOUT
+══════════════════════════ -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="sec-hd sa">
+      <span class="stag">About</span>
+      <h2 class="stitle">A bit about <span class="grad">me</span></h2>
+    </div>
+    <div class="about-layout">
+      <div class="about-card glass sa sl">
+        <div class="ac-top">
+          <div class="ac-avatar" id="acAvatar">
+            <i data-lucide="user" style="width:32px;height:32px;opacity:.4"></i>
+          </div>
+          <div>
+            <h3 id="acName">Name</h3>
+            <p class="ac-role" id="acRole">Role</p>
+            <p class="ac-loc"><i data-lucide="map-pin" style="width:12px;height:12px"></i> <span id="acLoc">Location</span></p>
+          </div>
+        </div>
+        <p class="ac-bio" id="acBio">…</p>
+        <div class="ac-foot">
+          <a href="#contact" class="btn btn-p btn-sm">Let's Talk</a>
+        </div>
+      </div>
+
+      <div class="about-right">
+        <div class="stats-grid" id="statsGrid"></div>
+        <div class="info-stack" id="infoStack"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════
+     SKILLS
+══════════════════════════ -->
+<section id="skills" class="section s-alt">
+  <div class="container">
+    <div class="sec-hd sa">
+      <span class="stag">Tech Stack</span>
+      <h2 class="stitle">Skills & <span class="grad">Tools</span></h2>
+      <p class="sdesc">Library, framework, dan tools yang saya pakai sehari-hari</p>
+    </div>
+    <div class="skill-tabs sa" id="skillTabs"></div>
+    <div id="skillPanels"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════
+     PROJECTS
+══════════════════════════ -->
+<section id="projects" class="section">
+  <div class="container">
+    <div class="sec-hd sa">
+      <span class="stag">Portfolio</span>
+      <h2 class="stitle">Featured <span class="grad">Projects</span></h2>
+      <p class="sdesc">Aplikasi yang telah saya bangun — mobile, web, dan cross-platform</p>
+    </div>
+
+    <!-- Filter pills -->
+    <div class="filter-row sa" id="filterRow"></div>
+
+    <!-- Project grid -->
+    <div class="proj-grid" id="projGrid"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════
+     EXPERIENCE
+══════════════════════════ -->
+<section id="experience" class="section s-alt">
+  <div class="container">
+    <div class="sec-hd sa">
+      <span class="stag">Journey</span>
+      <h2 class="stitle">Experience & <span class="grad">Education</span></h2>
+    </div>
+    <div class="tl-tabs sa" id="tlTabs">
+      <button class="tl-btn active" data-type="work"><i data-lucide="briefcase" style="width:14px;height:14px"></i> Work</button>
+      <button class="tl-btn" data-type="education"><i data-lucide="graduation-cap" style="width:14px;height:14px"></i> Education</button>
+    </div>
+    <div class="timeline" id="timeline"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════
+     CONTACT
+══════════════════════════ -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="sec-hd sa">
+      <span class="stag">Contact</span>
+      <h2 class="stitle">Get In <span class="grad">Touch</span></h2>
+      <p class="sdesc">Ada proyek menarik atau ingin berkolaborasi? Jangan ragu menghubungi!</p>
+    </div>
+    <div class="contact-layout">
+      <div class="contact-left sa sl" id="contactLeft"></div>
+      <div class="contact-right sa sr">
+        <div class="glass cform-wrap">
+          <h3 class="cform-title">Kirim Pesan</h3>
+          <form id="cForm">
+            <div class="fg"><label>Nama</label>
+              <div class="fi"><i data-lucide="user" class="fi-ico"></i><input id="cName" type="text" placeholder="John Doe" required></div>
+            </div>
+            <div class="fg"><label>Email</label>
+              <div class="fi"><i data-lucide="mail" class="fi-ico"></i><input id="cEmail" type="email" placeholder="john@example.com" required></div>
+            </div>
+            <div class="fg"><label>Subjek</label>
+              <div class="fi"><i data-lucide="tag" class="fi-ico"></i><input id="cSubject" type="text" placeholder="Project Collaboration"></div>
+            </div>
+            <div class="fg"><label>Pesan</label>
+              <textarea id="cMsg" rows="4" placeholder="Ceritakan proyekmu…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-p btn-full"><i data-lucide="send"></i> Kirim</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="brand"><span class="brand-dot"></span><span id="footName">Dev</span></div>
+    <p id="footCopy" class="foot-copy">© 2024 All rights reserved</p>
+    <div class="foot-socs" id="footSocs"></div>
+  </div>
+</footer>
+
+<!-- PROJECT MODAL -->
+<div id="modalBg" class="modal-bg">
+  <div id="modal" class="modal">
+    <button id="modalClose" class="modal-x"><i data-lucide="x"></i></button>
+    <div id="modalBody" class="modal-body"></div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div id="toast" class="toast"><i data-lucide="check-circle" style="width:15px;height:15px;color:#34d399"></i><span id="toastTxt">Done!</span></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

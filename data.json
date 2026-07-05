@@ -1,0 +1,349 @@
+{
+  "profile": {
+    "name": "Faishal Hariz Makaarim Gandadipoera",
+    "title": "Mobile Developer",
+    "taglines": [
+      "Building robust Android & Flutter mobile apps",
+      "Experiencing in Payment Gateway & Fintech integrations",
+      "Crafting scalable Node.js & PHP backend APIs",
+      "Passionate about smooth mobile UI/UX and Clean Architecture"
+    ],
+    "bio": "Mobile Developer dengan pengalaman dalam pengembangan aplikasi Android Native, Flutter, dan Backend System untuk produk transaksi digital, PPOB, payment gateway, e-wallet, serta layanan keuangan. Berpengalaman mengembangkan produk digital secara Agile.",
+    "avatar": "assets/avatar.jpg",
+    "email": "faishalhmg00@gmail.com",
+    "phone": "+62 813 8076 897",
+    "location": "Tangerang Selatan, Banten, Indonesia",
+    "available": true,
+    "availableText": "Open to work"
+  },
+  "social": [
+    { "platform": "GitHub",    "url": "https://github.com/faishalhmg",    "icon": "github" },
+    { "platform": "LinkedIn",  "url": "https://linkedin.com/in/faishal-hariz","icon": "linkedin" },
+    { "platform": "Email",     "url": "mailto:faishalhmg00@gmail.com", "icon": "email" }
+  ],
+  "stats": [
+    { "value": "2+",  "label": "Years Experience", "icon": "calendar" },
+    { "value": "8+",  "label": "Projects Completed", "icon": "smartphone" },
+    { "value": "2+",  "label": "Target Countries", "icon": "star" },
+    { "value": "ID/PH", "label": "Served Markets", "icon": "star" }
+  ],
+  "techStack": [
+    "Flutter", "Android Native", "Java", "Dart", "Node.js",
+    "Express.js", "MySQL", "SQLite", "Bloc", "Firebase", "REST API"
+  ],
+  "skills": [
+    {
+      "category": "Mobile Development",
+      "items": [
+        { "name": "Flutter & Dart",   "level": 92, "icon": "💙" },
+        { "name": "Android Native",   "level": 85, "icon": "🤖" },
+        { "name": "Java & Android SDK", "level": 85, "icon": "☕" },
+        { "name": "Google ML Kit",    "level": 78, "icon": "📷" },
+        { "name": "NFC integration",  "level": 75, "icon": "🏷️" }
+      ]
+    },
+    {
+      "category": "Backend & Cloud",
+      "items": [
+        { "name": "Node.js & Express", "level": 82, "icon": "🟢" },
+        { "name": "REST API (JSON/XML)", "level": 90, "icon": "🔌" },
+        { "name": "CodeIgniter 4",    "level": 80, "icon": "🔥" },
+        { "name": "Firebase Services", "level": 85, "icon": "☁️" }
+      ]
+    },
+    {
+      "category": "Database & State",
+      "items": [
+        { "name": "Bloc State Management", "level": 90, "icon": "🧩" },
+        { "name": "MySQL, PostgreSQL",            "level": 85, "icon": "🐬" },
+        { "name": "SQLite & Hive",    "level": 82, "icon": "📦" }
+      ]
+    },
+    {
+      "category": "Tools & Integrations",
+      "items": [
+        { "name": "Git & GitHub",     "level": 88, "icon": "🐙" },
+        { "name": "Firebase Crashlytics", "level": 85, "icon": "📊" },
+        { "name": "OneSignal & Push Notification", "level": 80, "icon": "🔔" },
+        { "name": "Payment Gateway Integration", "level": 82, "icon": "💳" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Bersama (Android Native)",
+      "subtitle": "Digital Transaction & Payment App",
+      "description": "Aplikasi transaksi digital yang menyediakan berbagai layanan pembayaran, pembelian produk digital, transfer dana, dan layanan keuangan lainnya.",
+      "longDescription": "Aplikasi transaksi digital yang menyediakan berbagai layanan pembayaran, pembelian produk digital, transfer dana, dan layanan keuangan lainnya.",
+      "tasks": [
+        "Mengembangkan berbagai fitur baru sesuai kebutuhan bisnis dan pengguna.",
+        "Mengintegrasikan layanan Payment Gateway E-Wallet WOI.",
+        "Mengimplementasikan fitur NFC dan QR Scanner menggunakan Google ML Kit.",
+        "Mengembangkan sistem notifikasi menggunakan Firebase dan OneSignal.",
+        "Melakukan optimasi performa aplikasi untuk meningkatkan stabilitas dan kecepatan respons.",
+        "Melakukan debugging dan perbaikan bug berdasarkan laporan Firebase Crashlytics.",
+        "Menjaga kompatibilitas aplikasi pada berbagai versi Android."
+      ],
+      "tags": ["Java", "Android SDK", "SQLite", "Firebase", "ML Kit", "NFC"],
+      "platform": ["Android"],
+      "category": "Finance",
+      "color": "#6366f1",
+      "emoji": "💰",
+      "images": [],
+      "playStoreUrl": "",
+      "appStoreUrl": "",
+      "githubUrl": "",
+      "featured": true,
+      "status": "Published",
+      "downloads": "—",
+      "rating": "—"
+    },
+    {
+      "id": 2,
+      "title": "Bersama (Flutter Revamp)",
+      "subtitle": "Modernized Mobile Payment App",
+      "description": "Proyek modernisasi aplikasi Bersama melalui migrasi dan pengembangan ulang menggunakan Flutter untuk meningkatkan performa, keamanan, dan UX.",
+      "longDescription": "Proyek modernisasi aplikasi Bersama melalui migrasi dan pengembangan ulang menggunakan Flutter untuk meningkatkan performa, keamanan, pengalaman pengguna, dan kemudahan maintenance aplikasi.",
+      "tasks": [
+        "Berpartisipasi dalam proses revamp aplikasi secara menyeluruh.",
+        "Meningkatkan keamanan aplikasi melalui optimalisasi autentikasi dan penyimpanan data lokal.",
+        "Melakukan optimasi performa untuk mempercepat waktu loading dan meningkatkan responsivitas aplikasi.",
+        "Menyempurnakan alur transaksi dan antarmuka pengguna untuk meningkatkan user experience.",
+        "Menerapkan arsitektur yang lebih modular dan mudah dipelihara.",
+        "Mengintegrasikan berbagai layanan seperti Firebase, NFC, OneSignal, ML Kit, dan Google Maps API.",
+        "Mendukung proses migrasi dari aplikasi lama ke platform Flutter."
+      ],
+      "tags": ["Flutter", "Bloc", "Get It", "Hive", "Dio", "Firebase"],
+      "platform": ["Android"],
+      "category": "Finance",
+      "color": "#3b82f6",
+      "emoji": "⚡",
+      "images": ["https://play-lh.googleusercontent.com/POVjhUpZWEwv3x5ZK4PqNIn-XG6VSAlaV87Ri617MF-pRf6fCltUW0QkRceNkX1ihRuSIe5Jdu2XoEUpkygWcA=w2560-h1440-rw", "https://play-lh.googleusercontent.com/DIOYybicMY4zRVepWNf4hyrg8VFIBh73BSngAxZduqdRv6tqAZw5lofJW894b9cuE7biiooGzDmSMIH0IfZnF8U=w2560-h1440-rw","https://play-lh.googleusercontent.com/U_c_Sgm7kxjNG-WbdKpqPUIq_2ShKajKEKKQw_LS5cAK8mnpKH9PrfEn4UlejyBAZHtNfDGU0uk44pjy2xgtXQ=w2560-h1440-rw","https://play-lh.googleusercontent.com/JMuhAmY0TadUW30SunxXTsYhKwti2wgHi3uIacxXTUx7nUH4M-AtvH2GSJIJOkLEIBGlcG_2zLqnq4JOD7XO=w2560-h1440-rw"],
+      "playStoreUrl": "",
+      "appStoreUrl": "",
+      "githubUrl": "",
+      "featured": true,
+      "status": "Published",
+      "downloads": "—",
+      "rating": "—"
+    },
+    {
+      "id": 3,
+      "title": "SamaSama Philippines",
+      "subtitle": "International Digital Transaction App",
+      "description": "Aplikasi transaksi digital yang dikembangkan untuk pasar Filipina dengan layanan pembayaran dan fitur transaksi lokal.",
+      "longDescription": "Aplikasi transaksi digital yang dikembangkan untuk pasar Filipina dengan layanan pembayaran, produk digital, dan fitur transaksi yang disesuaikan dengan kebutuhan pengguna lokal.",
+      "tasks": [
+        "Mengembangkan dan memelihara fitur transaksi digital untuk pasar Filipina.",
+        "Menyesuaikan fitur berdasarkan kebutuhan bisnis dan integrasi layanan lokal.",
+        "Mengintegrasikan layanan pihak ketiga untuk mendukung transaksi dan notifikasi pengguna.",
+        "Melakukan optimasi performa dan stabilitas aplikasi berdasarkan hasil monitoring produksi.",
+        "Berkolaborasi dengan tim lintas fungsi untuk memastikan kualitas dan konsistensi fitur antar platform.",
+        "Mendukung pengembangan produk digital lintas negara untuk pasar Indonesia dan Filipina."
+      ],
+      "tags": ["Flutter", "Bloc", "Get It", "Hive", "Dio", "Firebase", "OneSignal"],
+      "platform": ["Android"],
+      "category": "Finance",
+      "color": "#f59e0b",
+      "emoji": "🇵🇭",
+      "images": ["https://play-lh.googleusercontent.com/oQ4lmDrRAd_mOqu_0o0Jk99ghPv3MLA8BqzumuPcljy3bdsqMM5BN6n_l18uFaVQrnwBoZko36n9jXrUUMhlpw=w2560-h1440-rw","https://play-lh.googleusercontent.com/zD2hjFA_B2k-RsbxyE-lSjcZW60i9jqDNZy8dCVBiNR3Ph4Vwn1ezrIO91jSwDW3pYQAFaxQL2njzRQBHK8X1A=w2560-h1440-rw","https://play-lh.googleusercontent.com/O8zbPB0ZWswnJR_rvb_RDLmYpyV3RllJIaVs4l1QpIvw1Hi_DXrzNg95HvccTus_U2UdRomPvhxEy2qnWKIB7U0=w2560-h1440-rw","https://play-lh.googleusercontent.com/EDzYsaDYsyGtzu_5dsAVt1hPdQxyJoP-wlW92GX1M8Rt-URzNLXbmiHPGgRHRP_1XKI4pqmGIJhNaO7l2nRDHw=w2560-h1440-rw", "https://play-lh.googleusercontent.com/s53D7SocCiRZDMa-k_Zjq-vO8IDzb9VyvQqgX7gKAgUYuBEV8BA86XUYuGsZPwFMM6Q2k4EkDtMe6hi49O7NHg=w2560-h1440-rw"],
+      "playStoreUrl": "",
+      "appStoreUrl": "https://play.google.com/store/apps/details?id=lpi.samasama",
+      "githubUrl": "",
+      "featured": true,
+      "status": "Published",
+      "downloads": "—",
+      "rating": "—"
+    },
+    {
+      "id": 4,
+      "title": "TP Gateway",
+      "subtitle": "Backend Gateway Integration",
+      "description": "Layanan backend gateway yang menjadi pusat integrasi antara aplikasi mobile, sistem monitoring, dan provider eksternal.",
+      "longDescription": "Layanan backend gateway yang menjadi pusat integrasi antara aplikasi mobile, sistem monitoring, dan berbagai provider eksternal.",
+      "tasks": [
+        "Mengembangkan dan memelihara REST API yang digunakan oleh aplikasi Bersama, SamaSama, dan TP Monitoring.",
+        "Mengintegrasikan berbagai provider menggunakan format JSON maupun XML.",
+        "Mengelola proses validasi, routing, dan transformasi data transaksi.",
+        "Melakukan optimasi performa API untuk meningkatkan kecepatan respons layanan.",
+        "Menangani troubleshooting dan debugging integrasi antar sistem.",
+        "Memastikan stabilitas layanan backend pada lingkungan produksi."
+      ],
+      "tags": ["Node.js", "Express.js", "REST API", "JSON", "XML"],
+      "platform": ["Backend"],
+      "category": "Productivity",
+      "color": "#10b981",
+      "emoji": "🔌",
+      "images": [],
+      "playStoreUrl": "",
+      "appStoreUrl": "",
+      "githubUrl": "",
+      "featured": false,
+      "status": "Published",
+      "downloads": "—",
+      "rating": "—"
+    },
+    {
+      "id": 5,
+      "title": "TP Monitoring",
+      "subtitle": "Real-Time Transaction Dashboard",
+      "description": "Sistem monitoring internal untuk memantau aktivitas transaksi, operasional sistem, serta reporting perusahaan.",
+      "longDescription": "Sistem monitoring internal yang digunakan untuk memantau aktivitas transaksi, operasional sistem, serta kebutuhan reporting perusahaan.",
+      "tasks": [
+        "Mengembangkan dashboard monitoring transaksi secara real-time.",
+        "Membuat berbagai fitur reporting untuk kebutuhan operasional dan analisis bisnis.",
+        "Mengembangkan fitur manajemen akun dan hak akses pengguna.",
+        "Menampilkan data transaksi, status layanan, dan aktivitas sistem dari berbagai sumber data.",
+        "Membantu tim operasional dalam proses monitoring dan investigasi transaksi."
+      ],
+      "tags": ["Node.js", "Express.js", "Handlebars", "Axios"],
+      "platform": ["Web"],
+      "category": "Productivity",
+      "color": "#ec4899",
+      "emoji": "📊",
+      "images": [],
+      "playStoreUrl": "",
+      "appStoreUrl": "",
+      "githubUrl": "",
+      "featured": false,
+      "status": "Published",
+      "downloads": "—",
+      "rating": "—"
+    },
+    {
+      "id": 6,
+      "title": "Microsite PPOB",
+      "subtitle": "Web-Based PPOB Transaction Platform",
+      "description": "Platform transaksi PPOB berbasis web yang memungkinkan pengguna melakukan transaksi tanpa perlu login ke aplikasi.",
+      "longDescription": "Platform transaksi PPOB berbasis web yang memungkinkan pengguna melakukan transaksi tanpa perlu login ke aplikasi.",
+      "tasks": [
+        "Mengembangkan fitur transaksi PPOB berbasis web.",
+        "Mengintegrasikan sistem pembayaran dan layanan backend.",
+        "Merancang alur transaksi yang sederhana dan mudah digunakan oleh pengguna baru.",
+        "Mengoptimalkan performa dan responsivitas halaman web.",
+        "Meningkatkan pengalaman pengguna melalui desain antarmuka yang ringan dan intuitif."
+      ],
+      "tags": ["React", "Vite", "Tailwind CSS", "Firebase"],
+      "platform": ["Web"],
+      "category": "Utility",
+      "color": "#8b5cf6",
+      "emoji": "🌐",
+      "images": [],
+      "playStoreUrl": "",
+      "appStoreUrl": "",
+      "githubUrl": "",
+      "featured": false,
+      "status": "Published",
+      "downloads": "—",
+      "rating": "—"
+    },
+    {
+      "id": 7,
+      "title": "TBC Remind",
+      "subtitle": "Tuberculosis Treatment Reminder App",
+      "description": "Aplikasi pengingat pengobatan Tuberkulosis (TBC) yang membantu pasien mematuhi jadwal konsumsi obat.",
+      "longDescription": "Aplikasi pengingat pengobatan Tuberkulosis (TBC) yang membantu pasien mematuhi jadwal konsumsi obat melalui sistem pengingat dan notifikasi otomatis.",
+      "tasks": [
+        "Menyusun Software Requirement Specification (SRS).",
+        "Merancang struktur database berdasarkan kebutuhan sistem.",
+        "Mengimplementasikan database menggunakan MySQL.",
+        "Mengembangkan REST API menggunakan CodeIgniter 4.",
+        "Mengimplementasikan Alarm Management dan Push Notification menggunakan Firebase.",
+        "Mengembangkan aplikasi mobile menggunakan Flutter.",
+        "Berpartisipasi dalam proses desain, pengembangan, dan pengujian sistem."
+      ],
+      "tags": ["Flutter", "Firebase", "MySQL", "CodeIgniter 4", "REST API"],
+      "platform": ["Android", "iOS", "Backend"],
+      "category": "Health",
+      "color": "#ef4444",
+      "emoji": "⏰",
+      "images": ["https://play-lh.googleusercontent.com/huctaSWOrZRB-fGmEbqylzlVcCnJ20rbiMQLnQO9_yisBh0gkFGFHptLO8Himy7if9Ui5H2BfswFz45gGYF9Sw=w2560-h1440-rw", "https://play-lh.googleusercontent.com/dVffcQH9ALjBWWVPtIKEjeKzYTQV6X_PfOonR2cmNPXLVW5xwi8PEU2qcJ6I4nECJ7vmPqmXVW-IZsUpPDWcvg=w2560-h1440-rw","https://play-lh.googleusercontent.com/vWCmEZNl6vWzlcF4Ox0i9uq1ZVY-h6-CfUeRme9WRCLjrVV6mDyAUeqJiAhAoU-WFjWfGgIFvICGAyfxbSZwJsA=w2560-h1440-rw","https://play-lh.googleusercontent.com/WYrb4OApYKZ68gSD94uO5PH7YWH48I_1QSkrRlR2jKhixri3SEYDRsxe9D2ZcGf8h1IQEee_TL1dDCtTePs8=w2560-h1440-rw"],
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.TBCRemind.remindApp",
+      "appStoreUrl": "",
+      "githubUrl": "https://github.com/faishalhmg/TBCremind",
+      "featured": false,
+      "status": "Open Source",
+      "downloads": "—",
+      "rating": "—"
+    },
+    {
+      "id": 8,
+      "title": "DGT Diagnosis",
+      "subtitle": "Computer Vision Tree Disease Detection App",
+      "description": "Aplikasi berbasis Computer Vision untuk mendeteksi dan mengklasifikasikan jenis kerusakan pohon menggunakan Deep Learning.",
+      "longDescription": "Aplikasi berbasis Computer Vision untuk mendeteksi dan mengklasifikasikan jenis kerusakan pohon menggunakan teknologi Deep Learning pada perangkat mobile.",
+      "tasks": [
+        "Menyusun kebutuhan sistem dan dokumentasi proyek.",
+        "Mengembangkan arsitektur model Convolutional Neural Network.",
+        "Mengimplementasikan model MobileNet dan SSD MobileNetV2 untuk proses klasifikasi.",
+        "Mendesain dan mengimplementasikan database menggunakan MySQL.",
+        "Mengembangkan REST API menggunakan CodeIgniter 4.",
+        "Mengembangkan aplikasi Android menggunakan Flutter.",
+        "Mengintegrasikan model Artificial Intelligence ke dalam aplikasi mobile."
+      ],
+      "tags": ["Flutter", "TensorFlow Lite", "MobileNet", "MySQL", "CodeIgniter 4"],
+      "platform": ["Android", "Backend"],
+      "category": "Education",
+      "color": "#10b981",
+      "emoji": "🌲",
+      "images": ["https://play-lh.googleusercontent.com/r066XTgDbfNnffcqAy_cQ3_P-k4mnlJiRXzFccIHuD3yUQvXlFsdQqS5-4C7RsUPGJVKGwC7J-ejTTGvy5w1UQ=w526-h296-rw", "https://play-lh.googleusercontent.com/Szyd2fSWOcd2L1pjHvMVEyl_vnRpQm4-WFh6x48uKe9_UDSwc77ys9_WpJWY2I4VeeJtGpSyDpdFcN_dvMhK=w2560-h1440-rw", "https://play-lh.googleusercontent.com/MsRUjmt8EbAmNOfUh0WgVuXhcKkwQV2aesjR8E_-tuaWW-UX1VYO3861bjDD0P1hD_GWD5-LW-QXZ2GSHx-pUg=w2560-h1440-rw"],
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.damagetype.diagnosis",
+      "appStoreUrl": "",
+      "githubUrl": "https://github.com/faishalhmg/treediagnos",
+      "featured": false,
+      "status": "Open Source",
+      "downloads": "—",
+      "rating": "—"
+    }
+  ],
+  "experience": [
+    {
+      "type": "work",
+      "title": "Product Technical Specialist",
+      "company": "PT Loket Pintar Indonesia",
+      "period": "Sep 2024 – Sekarang",
+      "location": "Indonesia",
+      "description": "Mengembangkan dan memelihara aplikasi mobile serta sistem backend untuk mendukung layanan transaksi digital. Melakukan analisis, debugging, dan optimasi performa aplikasi berdasarkan data Firebase Crashlytics.",
+      "tech": ["Java", "Android SDK", "Flutter", "Node.js", "Express.js", "Firebase", "Crashlytics"]
+    },
+    {
+      "type": "work",
+      "title": "Mobile Developer & Backend Engineer",
+      "company": "Proyek Akademik & Penelitian - TBC Remind",
+      "period": "Sep 2023 – Jul 2024",
+      "location": "Universitas Lampung",
+      "description": "Mengembangkan aplikasi pengingat Tuberkulosis (TBC) berbasis Flutter & REST API CodeIgniter 4 dengan integrasi Alarm Management dan Push Notification Firebase.",
+      "tech": ["Flutter", "Firebase", "MySQL", "CodeIgniter 4", "REST API"]
+    },
+    {
+      "type": "work",
+      "title": "Mobile Developer & Backend Engineer",
+      "company": "Proyek Akademik & Penelitian - DGT Diagnosis",
+      "period": "Des 2022 – Sep 2023",
+      "location": "Universitas Lampung",
+      "description": "Mengembangkan aplikasi deteksi kerusakan pohon menggunakan Computer Vision Deep Learning (MobileNet, SSD MobileNetV2) di Flutter.",
+      "tech": ["Flutter", "TensorFlow Lite", "MobileNet", "MySQL", "CodeIgniter 4"]
+    },
+    {
+      "type": "education",
+      "title": "Sarjana Ilmu Komputer",
+      "company": "Universitas Lampung",
+      "period": "2019 – 2024",
+      "location": "Bandar Lampung, Indonesia",
+      "description": "Lulus dengan IPK 3.76 / 4.00. Tugas akhir mengenai klasifikasi kerusakan pohon berbasis Android menggunakan Convolutional Neural Network. Aktif sebagai Asisten Praktikum Pengembangan Aplikasi Mobile.",
+      "tech": ["Mobile Programming", "Web Programming", "AI", "Computer Vision"]
+    }
+  ],
+  "contact": {
+    "email": "faishalhmg00@gmail.com",
+    "phone": "+62 813 8076 6897",
+    "location": "Tangerang Selatan, Banten, Indonesia",
+    "whatsapp": "https://wa.me/6281380766897"
+  },
+  "seo": {
+    "title": "Faishal Hariz — Mobile Developer Portfolio",
+    "description": "Portfolio Faishal Hariz Makaarim Gandadipoera — Mobile Developer spesialis Android Native, Flutter, dan Backend System Node.js & Express.",
+    "keywords": "flutter developer, android developer, mobile developer, backend engineer, java, nodejs, express, bloc"
+  }
+}

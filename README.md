@@ -22,6 +22,7 @@ A beautiful, interactive, and JSON-configurable portfolio website. Fully static 
 ## 📁 File Structure
 
 ```
+   
 portfolio/
 ├── index.html          # Main page
 ├── data.json           ⭐ EDIT THIS to customize your portfolio
@@ -34,6 +35,7 @@ portfolio/
     └── projects/
         ├── project1.jpg
         └── ...
+          
 ```
 
 ## ⚙️ Configuration (data.json)
